@@ -1,0 +1,6 @@
+h1-h6 => heading
+p=> paragraph
+block level element
+(h1-h6, p)
+inline element
+(span,img)
