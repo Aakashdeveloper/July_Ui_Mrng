@@ -3,4 +3,36 @@ p=> paragraph
 block level element
 (h1-h6, p)
 inline element
-(span,img)
+(span,img,a)
+
+/**********************
+    List In Html
+***********************/
+Ul= unorderdList
+OL= OrderedList
+DL= Descriptive List
+
+Task
+
+First Page(home)
+-----------------------
+top 
+Links 
+and your name
+------------------
+image
+about you
+----------------
+Social Link
+*********************************
+Second(About me)
+------------------
+top Links and your name
+---------------------------------
+Achivements / Hobbies
+*********************************
+Third(Contact us)
+------------------
+top Links and your name
+---------------------------------
+Your contact details
