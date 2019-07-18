@@ -3,7 +3,7 @@ p=> paragraph
 block level element
 (h1-h6, p)
 inline element
-(span,img,a)
+(span,img,a,input)
 
 /**********************
     List In Html
@@ -36,3 +36,18 @@ Third(Contact us)
 top Links and your name
 ---------------------------------
 Your contact details
+
+/***************
+    Git Commands
+*****************/
+// First time
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testapp1.git
+git push -u origin master
+
+// All time
+git add .
+git commit -m "first commit"
+git push -u origin master

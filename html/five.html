@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>HTML Forms </title>
+    </head>
+    <body>
+        <center>
+            <h1>Employee Form</h1>
+        </center>
+        <hr/>
+        <form action="" method="">
+                <div>
+                    <label for="fsname">Application ID</label>
+                    <input type="text" 
+                            placeholder="firstname" 
+                            value="7678768gfcr56"
+                            name="fname"
+                            id="fsname"
+                            readonly/>
+                </div>
+            <div>
+                <label for="fsname">FirstName</label>
+                <input type="text" 
+                       placeholder="firstname" 
+                       value="firstname"
+                       name="fname"
+                       id="fsname"
+                       required/>
+            </div>
+            <div>
+                <label for="lsname">LastName</label>
+                <input type="text" 
+                      placeholder="lastname"
+                      name="lname"
+                      id="lsname" />
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" 
+                        name="passw"
+                        id="password"
+                        minlength="8" />
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" 
+                            name="phone"
+                            id="phone"
+                            maxlength="10" />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" 
+                        name="emails"
+                        id="email" />
+            </div>
+            <div>
+                <label for="dates">Date</label>
+                <input type="date" 
+                        name="date"
+                        id="dates"
+                        min=""
+                        max="" />
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" 
+                        name="age"
+                        id="age" />
+            </div>
+            <div>
+                <label for="color">Color</label>
+                <input type="color" 
+                        name="color"
+                        id="color" />
+            </div>
+            <div>
+                <label for="upload">File</label>
+                <input type="file" 
+                        name="upload"
+                        id="upload" />
+            </div>
+            <div>
+                <label>
+                    <input type="radio" value="female" name="gender"/>FeMale
+                </label>
+                <label>
+                    <input type="radio" value="male" name="gender"/>Male 
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" value="Javascript">JavaScript
+                </label><br/>
+                <label>
+                    <input type="checkbox" value="Html">HTML
+                </label><br/>
+                <label>
+                    <input type="checkbox" value="NodeJs">NodeJS
+                </label>
+            </div>
+            <div>
+                <select>
+                    <option value="windows">windows</option>
+                    <option value="mac">Mac</option>
+                    <option value="linux">Linux</option>
+                </select>
+            </div>
+            <div>
+                <label>Comment</label>
+                <textarea id="comment"></textarea>
+            </div>
+            <button type="submit">SignUp</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
