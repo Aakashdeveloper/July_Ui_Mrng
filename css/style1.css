@@ -1,0 +1,17 @@
+#one{
+    text-align: center;
+}
+#two{
+    text-align: right;
+}
+.first{
+    color:green;
+}
+#second{
+    color:orange;
+}
+h2{
+    text-align:center;
+    color:salmon;
+    font-size:40px
+}

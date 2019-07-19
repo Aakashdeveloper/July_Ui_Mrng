@@ -51,3 +51,18 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push -u origin master
+
+/***************************/
+id    #
+class .
+tag   h2
+
+inline       
+style tag
+stylesheet
+
+>>>>Priority
+inline > style tag > stylesheet
+
+>>implementation
+stylesheet> styletag> inline
