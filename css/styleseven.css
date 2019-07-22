@@ -1,0 +1,40 @@
+.heading{
+    text-align: center;
+    color: steelblue;
+}
+
+.topic{
+    height: 280px;
+    width:300px;
+    float: left;
+    border:5px groove #008080;
+    margin-left:15px;
+    overflow: scroll;
+    padding: 10px;
+    background: thistle;
+    color:#fff;
+    box-shadow: 10px 10px #f2c8c8;
+    border-radius: 10%;
+    /*overflow: hidden;*/
+}
+
+.topic_heading{
+    text-align: center;
+    color:blueviolet;
+}
+
+body{
+
+}
+
+
+
+
+
+/*
+solid
+dotted
+dashed
+double
+groove
+*/
