@@ -1,0 +1,50 @@
+.navbar{
+    width:100%;
+    display: block;
+}
+li{
+    float: left;
+    padding: 10px;
+    font-size:30px;
+    background:rgb(241, 224, 224);
+    
+}
+ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color:seagreen;
+}
+
+li:hover a{
+    color:rgb(123, 201, 7)
+}
+
+#second{
+    height: 100px;
+    width:100%;
+    border:2px solid hotpink;
+    margin-top: 50px;
+    overflow: scroll;
+}
+
+
+img:first-child{
+    height:260px
+}
+
+img:nth-child(6):hover{
+    transform: scale(2,2)
+}
+
+/*#imgdiv:hover 
+{
+    transform: scale(2,2)
+}*/
+
+p:first-child{
+    color:green
+}
+
