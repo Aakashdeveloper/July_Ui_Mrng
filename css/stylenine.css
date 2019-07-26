@@ -1,0 +1,63 @@
+#main{
+    height: 60px;
+    width:20px;
+    background: yellowgreen;
+    margin:0 auto;
+}
+
+#main:hover{
+    transform: rotate(40deg);
+}
+
+.normalalign{
+    height: 200px;
+    width:500px;
+    background: red;
+    padding: 10px;
+}
+
+#bodydiv{
+    margin: 50px;
+}
+
+.normalalign:hover {
+    transform: skewY(20deg)
+}
+
+#second{
+    height:300px;
+    width:300px;
+    background: tomato;
+    opacity: .5;
+}
+
+#second:hover{
+    opacity: 1;
+}
+
+.image{
+    border:2px solid gold;
+    width:200px;
+}
+
+.image div{
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px gray;
+}
+
+.one{
+    height:300px;
+    width:300px;
+    background: teal;
+    margin:10px;float: left;
+}
+.twoq{
+    height:200px;
+    width:200px;
+    background: sandybrown;
+    margin-top:10px;
+    position: absolute;
+    float: left;
+    visibility: visible;
+}

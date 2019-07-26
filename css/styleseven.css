@@ -5,6 +5,9 @@
 .heading{
     text-align: center;
     color: steelblue;
+    position: fixed;
+    margin-top: 1%;
+    margin-left:20%;
 }
 
 .topic{
