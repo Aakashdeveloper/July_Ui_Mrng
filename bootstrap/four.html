@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <ul class="nav nav-tabs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button type="button" class="btn btn-danger"
+            data-target="#mydetails" data-toggle="modal">
+            Details
+        </button>
+        <div id="mydetails" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close"
+                            data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                            Complete Details
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                            <div class="form-group">
+                                    <label class="control-label">
+                                        FirstName
+                                    </label>
+                                    <input type="text" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                    <label class="control-label">
+                                        LastName
+                                    </label>
+                                    <input type="text" class="form-control"/>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button"
+                            class="btn btn-warning" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee Form
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="control-label">
+                            FirstName
+                        </label>
+                        <input type="text" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">
+                            LastName
+                        </label>
+                        <input type="text" class="form-control"/>
+                    </div>
+                    <div class="radio-inline">
+                        <label>
+                            <input type="radio"
+                            name="gender"/>
+                            Male
+                        </label>
+                    </div>
+                    <div class="radio-inline">
+                            <label>
+                                <input type="radio"
+                                name="gender"/>
+                                FeMale
+                            </label>
+                    </div>
+                    <br/>
+                    <div class="checkbox-inline">
+                        <label>
+                            <input type="checkbox">Apple
+                        </label>
+                    </div>
+                    <div class="checkbox-inline">
+                            <label>
+                                <input type="checkbox">Apple
+                            </label>
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                        <label>Technologies</label>
+                        <select class="form-control">
+                            <option>JavaScript</option>
+                            <option>Angular</option>
+                            <option>React</option>
+                        </select>
+
+                    </div>
+                    <div class="fomr-group">
+                        <label>Comment</label>
+                        <textarea class="fomr-control" rows=8 
+                        cols=50></textarea>
+                    </div>
+                    <button type="button" 
+                        class="btn btn-success">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
