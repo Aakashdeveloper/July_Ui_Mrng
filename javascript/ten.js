@@ -79,3 +79,11 @@ function add(x,y){
     return x+y
 }
 add(a,b)
+
+
+
+var a = []
+var data = prompt('Please eneter your name')
+if(a.indexof(data) == -1){
+    a.push(data)
+}
