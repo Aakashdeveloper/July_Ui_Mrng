@@ -1,0 +1,47 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form>
+            Email<input type="email"
+                placeholder="email"
+                id="email"/>
+            Confirm Email<input type="email"
+                placeholder="Cemail"
+                id="cemail"
+                onblur="validateEmail()"/>
+            Password<input type="text" placeholder="password"
+            onblur="validatePassword()"
+            class="password" />
+            <p></p>
+
+            <script>
+                const validateEmail = () => {
+                    let a = document.getElementById('email').value;
+                    let b = document.getElementById('cemail').value;
+                    let message
+                    if( a === b){
+                        message = ""
+                    } else {
+                        message="Email does not match"
+                    }
+
+                    document.getElementsByTagName('p')[0].innerText = message
+                }
+
+                const validatePassword = () => {
+                    var validpattern = "^[a-zA-Z0-9]{8,10}$"
+                    var uin = document.getElementsByClassName('password')[0].value;
+                    let message
+                    if(uin.match(validpattern)){
+                        message = ""
+                    }else {
+                        message="please enter valid password"
+                    }
+                    document.getElementsByTagName('p')[0].innerText = message
+
+                }
+            </script>
+        </form>
+    </body>
+</html>
