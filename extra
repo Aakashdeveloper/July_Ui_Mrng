@@ -70,3 +70,17 @@ stylesheet> styletag> inline
 https://www.npmjs.com/
 package.json
 node_modules
+
+
+/*******************
+Step to create package.json
+**********************/
+> navigate to folder
+> npm init
+> answer all question
+> type Yes
+
+/*******************
+Step to install node_modules
+**********************/
+npm i @babel/core @babel/preset-env @babel/register babel-polyfill
