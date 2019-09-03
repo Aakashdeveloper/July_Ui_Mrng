@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button type="button" onclick="mylocation()">Location</button>
+        <p id="location"> </p>
+        <script>
+            let loc = document.getElementById('location');
+            const mylocation = () => {
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(getPosition)
+                } else{
+                    loc.innerHTML = "Nt supported by browser"
+                }
+            }
+
+            const getPosition = (marks) => {
+                console.log(marks);
+                loc.innerHTML = "lat: "+ marks.coords.latitude+ "lon: "+
+                marks.coords.longitude
+            }
+        </script>
+    </body>
+</html>
